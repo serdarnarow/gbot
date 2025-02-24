@@ -104,7 +104,7 @@ func main() {
 	token := os.Getenv("TELEGRAM_BOT_TOKEN")
 
 	if token == "" {
-		//fmt.Println("Токен не найден в .env")
+		fmt.Println("Токен не найден в .env")
 		log.Fatal("Токен не найден в .env")
 	}
 	//sozdanie bot
